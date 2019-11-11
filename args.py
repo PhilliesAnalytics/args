@@ -12,10 +12,7 @@ from glob import glob
 from collections import OrderedDict
 
 # Python 3
-if sys.version_info[0] == 3:
-    string_type = str
-else:
-    string_type = basestring
+string_type = str
 
 
 def _expand_path(path):
